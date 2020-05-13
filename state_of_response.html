@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
     <!-- Ionic Icon Css -->
     <link rel="stylesheet" href="plugins/Ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+
     <!-- animate.css -->
     <link rel="stylesheet" href="plugins/animate-css/animate.css">
     <!-- Magnify Popup -->
@@ -63,14 +65,13 @@
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="state_of_response.html">Our State of Response</a></li>
                                     <li><a href="actions.html">Proposed actions</a></li>
-                                    <li><a href="budget.html">Budget & Workplan</a></li>
                                     <li class="dropdown">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="ion-ios-arrow-down"></span></a>
                                         <ul class="dropdown-menu">
                                             <li><a href="trustees.html">Trustees</a></li>
-                                            <li><a href="#">Mission</a></li>
-                                            <li><a href="#">Vision</a></li>
-                                            <li><a href="#">FAQ</a></li>
+                                            <li><a href="about.html">Mission</a></li>
+                                            <li><a href="about.html">Vision</a></li>
+                                            <li><a href="contact.html">FAQ</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="contact.html">Contact</a></li>
@@ -110,63 +111,159 @@
                 </div>
                 <div class="block">
                     <h2> Forecast of Potential Impact of Covid-19 in Zimbabwe (Best Case Scenario)</h2>
-                    <img src="images/backgrounds/metrics.png" alt="ZIM AGAINST COVID-19">
+                    <div class="table">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th class="bg-info">Description</th>
+                                    <th class="bg-info">Percentage (%)</th>
+                                    <th class="bg-info">Number</th>
+                                    <th class="bg-info">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Total Population</td>
+                                    <td></td>
+                                    <td>14 862 924</td>
+                                    <td>14 862 924</td>
+                                </tr>
+                                <tr>
+                                    <td>Infection rate (30 - 70 %)</td>
+                                    <td>30%</td>
+                                    <td>4 458 877</td>
+                                    <td>4 458 877</td>
+                                </tr>
+                                <tr>
+                                    <td>No. of Covid-19 patients needing hospitalisation</td>
+                                    <td>15%</td>
+                                    <td>668 832</td>
+                                    <td>668 832</td>
+                                </tr>
+                                <tr>
+                                    <td>No. of hospitals in Zimbabwe</td>
+                                    <td></td>
+                                    <td>25 300</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>No. of Covid-19 patients likely to need critical care</td>
+                                    <td>5%</td>
+                                    <td>222 944</td>
+                                    <td>222 944</td>
+                                </tr>
+                                <tr>
+                                    <td>No. of critical care beds in Zimbabwe</td>
+                                    <td></td>
+                                    <td>45</td>
+                                    <td>45</td>
+                                </tr>
+                                <tr>
+                                    <td>No. of Covid-19 patients likely to need critical care in six months</td>
+                                    <td></td>
+                                    <td>37 157</td>
+                                    <td>37 157</td>
+                                </tr>
+                                <tr>
+                                    <td>Average critical care per bed</td>
+                                    <td></td>
+                                    <td>826</td>
+                                    <td>826</td>
+                                </tr>
+                                <tr>
+                                    <td class="bg-danger">Death rate(0.5-2%)</td>
+                                    <td class="bg-danger">0.5%</td>
+                                    <td class="bg-danger">22 294</td>
+                                    <td class="bg-danger">22 294</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p>Source:own calculations based global Covid-19 Trends</p>
                 </div>
-                <p>The Zimbabwean population is currently estimated to be around 14.9 million people. In our best-case scenarios, it is assumed that around 30% of the Zimbabwe population would be infected. Other European countries and South Africa forecasted
-                    an infection rate of 60-70%. However, given that the economy of Zimbabwe is not as globalised as that of South Africa and EU countries and the fact that the world is literally on lockdown, the infection rate could be lower. Secondly,
-                    the country has already declared a lockdown with only 7 confirmed cases. However, it’s important to note that even with this conservative estimate:</p>
+                <div class="section-title">
+                    <p>The Zimbabwean population is currently estimated to be around 14.9 million people. In our best-case scenarios, it is assumed that around 30% of the Zimbabwe population would be infected. Other European countries and South Africa forecasted
+                        an infection rate of 60-70%. However, given that the economy of Zimbabwe is not as globalised as that of South Africa and EU countries and the fact that the world is literally on lockdown, the infection rate could be lower. </p>
+                </div>
 
-                <p>
-                    <li>Around 4.5 million people (30%) are projected to be infected by the corona virus.</li>
-                    <li>Of this 4.5 million, 668 832 (15%) might need hospitalisation. Current estimates indicated that Zimbabwe has around 25 300 normal hospital beds.</li>
-                    <li>Of the confirmed cases, it is estimated that (222 944) 5% would need critical care. Zimbabwe is estimated to have a total of 100 critical care beds, of these beds around 45 have been identified for Covid-19 patents. It’s not clear
-                        how many more Covid-19 patents beds are being made available through the current renovations of some facilities. Based on the best-case scenario of 100 Covid beds, it’s estimated that only one 1 out of 372 critical patients would
-                        get a admitted in ICU. This is might lead to a situation where doctors have to make a choice on who to give a critical care bed. Unfortunately, this has been happening in Italy, as the system got overwhelmed, leading to massive
-                        deaths.
-                    </li>
-                    <li>
-                        On average, around 0.5-2% of confirmed cases die. Using the best-case scenario, the number of Covid-19 related deaths is estimated at 22 294 (0.5%).
-                    </li>
-                </p>
                 <div class="block">
                     <h2> Forecast of Potential Impact of Covid-19 in Zimbabwe (Worst Case Scenario)</h2>
-                    <img src="images/backgrounds/worse_case.png" alt="ZIM AGAINST COVID-19">
-                    <p>The worst-case scenario assumes that 70% of the Zimbabwe population would be infected. Based on this, it is estimated that
-                    </p>
-                    <li>More than 10 million people (70%) will be infected by the corona virus.</li>
-                    <li>Around 2 million people (20%) will need hospitalisation. This is against a total bed count of 25 300.</li>
-                    <li>Around 520 000 people (5%) would need critical care. This is against a critical care total bed count of 45. Even if we spread the number of patients over a 6 months period, a ratio of 1:1 927 clearly indicates that the country would
-                        not have capacity.</li>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2> Mitigation</h2>
-                        <p>Even with best prevention efforts, a highly infectious virus like SARS-COV-2 will infect some and the country has to be ready to mitigate impact. As per the WHO guidelines, and given Zimbabwe’s current situations, the following
-                            have to be prioritised
-                        </p>
-                        <li>Identify essential services that will be prioritized in their efforts to maintain continuity of service delivery and make strategic shifts to ensure that increasingly limited resources provide maximum benefit for the population.</li>
-                        <li>Comply with the highest standard in precautions, especially in hygiene practices, and the provision of adequate supplies including personal protective equipment.
-                        </li>
-                        <li>Ensure robust planning and coordinated actions between governments and health facilities and their managers.
-                        </li>
 
-                        <p>As part of mitigation, the Government of Zimbabwe would need support in strengthening the following:</p>
-                        <li>Facilities of treating known cases to prevent complications
-                        </li>
-                        <li>Scaling up screening to allow targeting of prevention efforts to hotspot areas and activities,</li>
-                        <li>Improve the effectiveness of lockdown, social distancing and other prevention messages so that the country can quickly begin to “flatten the curve". This implies trying as much as possible to delay spread to allow health system
-                            to cope with cases as they arise.</li>
+                    <div class="table">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th class="bg-info">Description</th>
+                                    <th class="bg-info">Percentage (%)</th>
+                                    <th class="bg-info">Number</th>
+                                    <th class="bg-info">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Total Population</td>
+                                    <td></td>
+                                    <td>14 862 924</td>
+                                    <td>14 862 924</td>
+                                </tr>
+                                <tr>
+                                    <td>Infection rate (30 - 70 %)</td>
+                                    <td>70%</td>
+                                    <td>10 404 047</td>
+                                    <td>10 404 047</td>
+                                </tr>
+                                <tr>
+                                    <td>No. of Covid-19 patients needing hospitalisation</td>
+                                    <td>20%</td>
+                                    <td>2 080 809</td>
+                                    <td>2 080 809</td>
+                                </tr>
+                                <tr>
+                                    <td>No. of hospitals in Zimbabwe</td>
+                                    <td></td>
+                                    <td>25 300</td>
+                                    <td>25 300</td>
+                                </tr>
+                                <tr>
+                                    <td>No. of Covid-19 patients likely to need critical care</td>
+                                    <td>5%</td>
+                                    <td>520 202</td>
+                                    <td>520 202</td>
+                                </tr>
+                                <tr>
+                                    <td>No. of critical care beds in Zimbabwe</td>
+                                    <td></td>
+                                    <td>45</td>
+                                    <td>45</td>
+                                </tr>
+                                <tr>
+                                    <td>No. of Covid-19 patients likely to need critical care in six months</td>
+                                    <td></td>
+                                    <td>86 700</td>
+                                    <td>86 700</td>
+                                </tr>
+                                <tr>
+                                    <td>Average critical care per bed</td>
+                                    <td></td>
+                                    <td>1 927</td>
+                                    <td>1 927</td>
+                                </tr>
+                                <tr>
+                                    <td class="bg-danger">Death rate(0.5-2%)</td>
+                                    <td class="bg-danger">2.0%</td>
+                                    <td class="bg-danger">208 081</td>
+                                    <td class="bg-danger">208 081</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="col-md-6">
-                        <h2> Managing the Covid-19 Information and Communication</h2>
-                        <p>What we have learnt from other countries is that wrong information can cause a lot of harm. It’s critical the Government agencies, the entire healthy system and the media are spreading accurate and timely information. If this is
-                            not done properly social media might dominate, leading to the spread of inaccurate or ‘fake news’. Therefore, information management and dissemination are key to the fight against Covid-19.</p>
+                    <div class="section-title">
+                        The worst-case scenario assumes that 70% of the Zimbabwe population would be infected.
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 
     <!-- footer Start -->
     <footer class="footer">
@@ -175,11 +272,8 @@
                 <div class="col-md-12">
                     <div class="footer-manu">
                         <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="#">How it works</a></li>
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">Terms</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
                         </ul>
                     </div>
                     <p class="copyright">Copyright 2020 &copy; Design & Developed by <br> <a href="http://unlocktechnologies.co.zw/">Unlock Technologies</a>. <br>All rights reserved.
@@ -189,6 +283,7 @@
             </div>
         </div>
     </footer>
+
 
     <!-- 
     Essential Scripts
