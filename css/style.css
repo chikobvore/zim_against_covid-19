@@ -45,7 +45,7 @@ h4 {
 
 p {
     color: #7B7B7B;
-    font-size: 15px;
+    font-size: 18px;
     font-family: "Roboto", sans-serif;
 }
 
@@ -784,10 +784,10 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .slider {
-    background: url("../images/landing-page/harare.jpg") no-repeat;
+    background: url("../images/landing-page/covid.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 10% 0%;
+    background-position: center center;
     padding: 200px 0 280px 0;
     position: relative;
 }
